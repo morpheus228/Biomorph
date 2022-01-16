@@ -126,4 +126,4 @@ class Biomorph():
         plt.xlim(min_ - 1, max_ + 1)
         plt.ylim(min_ - 1, max_ + 1)
         plt.savefig('biomorth' + str(ind) + '.png', bbox_inches='tight', pad_inches=-0.05)
-        plt.close()
+        
